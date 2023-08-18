@@ -55,7 +55,6 @@ ol {
 
 .container {
   width: 1158px;
-
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -849,4 +848,35 @@ ol {
   border: none;
   background-color: var(--ocean);
   fill: var(--cloud);
+}
+.subscribe {
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+.social-media {
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+/* .footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; */
+/* } */
+.footer-sub {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-input {
+  width: 264px;
+  height: 40px;
+  padding: 16px 8px;
+  border: 1px;
+  border-radius: 4px;
 }
