@@ -775,7 +775,10 @@ ol {
   display: block;
 }
 .modal-field {
-  margin-bottom: 24px;
+  margin-bottom: 8px;
+}
+.modal-field-coment {
+  margin-bottom: 16px;
 }
 .modal-input-wrap {
   position: relative;
@@ -808,7 +811,7 @@ ol {
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-comment:focus input {
+.modal-comment:focus .modal-label {
   border-color: var(--iris);
 }
 .modal-check-text {
@@ -828,7 +831,7 @@ ol {
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
   border-radius: 2px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
